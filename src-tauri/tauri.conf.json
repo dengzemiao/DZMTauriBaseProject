@@ -4,9 +4,9 @@
   "version": "0.1.0",
   "identifier": "com.dengzemiao.tauri-app",
   "build": {
-    "beforeDevCommand": "npm run dev",
+    "beforeDevCommand": "npm run dev:h5",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "npm run build",
+    "beforeBuildCommand": "npm run build:h5",
     "frontendDist": "../dist"
   },
   "app": {
