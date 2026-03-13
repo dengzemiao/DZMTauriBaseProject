@@ -4,8 +4,12 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev:h5": "vite",
+    "dev:win": "tauri dev",
+    "dev:mac": "tauri dev",
+    "build:h5": "vite build",
+    "build:win": "tauri build --bundles nsis",
+    "build:mac": "tauri build --bundles dmg",
     "preview": "vite preview",
     "tauri": "tauri"
   },
